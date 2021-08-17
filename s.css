@@ -1,0 +1,156 @@
+/**Division for search */
+#search
+{
+    background-color: #0E0E30;
+    text-align: left;
+    border-top: 1px solid white;
+    border-bottom:1px solid white;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.search-box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #0E0E30;
+    border:3px solid yellow;
+    height: 60px;
+    width: 300px;
+    border-radius: 40px;
+    padding: 7px;
+}
+
+/* search button icon */
+.search-btn
+{
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;    
+}
+
+*
+{
+    /* Adjust page overlay */
+    padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body
+{
+    /* page body color */
+	background-color:#14115C;
+	font-family:calibri;
+}
+
+.menu
+{   /* main navi color */
+	background-color:#0E0E30;
+	text-align:left;
+}
+
+.menu ul
+{
+	display:inline-flex;
+	list-style:none;
+}
+
+.menu ul li
+{
+	width:140px;
+	margin:10px;
+	padding:15px;
+}
+
+.menu ul li a
+{
+    /*setting of the navi*/
+    text-decoration:none;
+	color:#FFFFFF;
+}
+
+.active, .menu ul li:hover
+{
+    /* active color to yellow */
+	background-color: #4F4F5B;
+	border-radius:3px;	
+}
+
+.menu .fa
+{
+	margin-right;
+}
+
+.submenu1
+{
+    /* drop down lists for navi */
+	display:none;
+}
+.menu ul li:hover .submenu1
+{
+    /* drop down list settings */
+display:block;
+position:absolute;
+background:#161366;
+margin-top:15px;
+margin-left:15px;
+}
+
+.menu ul li:hover .submenu1 ul
+{
+    /* drop down list mouse hover */
+	display:block;
+	margin:10px;
+}
+
+.menu ul li:hover .submenu1 ul li
+{
+    /* drop down list border settings */
+	width:200px;
+	padding:10px;
+	border-bottom:1px dotted #FFFFFF;
+	background:transparent;
+	text-align:left;
+}
+
+.menu ul li:hover .submenu1 ul li:last-child
+{
+    /* remove bottom line for drop down lists */
+    border-bottom:none;
+}
+
+.menu ul li:hover .submenu1 ul li a:hover
+{
+	/* color of the mouse hover to drop down list */ 
+    color:#FAF611;
+}
+
+.fa-angle-right;
+{
+	/* Icons for navi */
+    float:right;
+}
