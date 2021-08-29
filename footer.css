@@ -24,7 +24,7 @@ body{
 footer{
 	position: fixed;
 	bottom: 0;
-    left:0;
+        left:0;
 }
 
 @media (max-height:800px){
@@ -177,14 +177,14 @@ input[type=text] {
 .btn
 {
 	position: absolute;
-	top: 41%;
-	left: 90%;
+	top: 55%;
+	left: 74%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	background-color: rgb(129, 177, 218);
 	color: #ffffff;
 	font-size: 16px;
-	padding: 10px 30px;
+	padding: 10px 40px;
 	border: none;
 	cursor: pointer;
 	border-radius: 5px;
@@ -196,6 +196,36 @@ input[type=text] {
 {
 	background-color: black;
 	color: white;
+}
+.chat
+{
+    display:inline;
+    margin-top:-10px;
+    
+}
+.footer-distributed .chat a{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 50%;
+
+	font-size:40px;
+	color: #3da528;
+	text-align: center;
+	line-height: 50px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+    
+    
+}
+.chatp
+{
+    display:inline;
+    color: #ffffff;
+    font: normal 30px 'Cookie', cursive;
 }
 	
 	
@@ -213,9 +243,35 @@ input[type=text] {
 		margin-bottom: 40px;
 		text-align: center;
 	}
+	.help
+	{
+		float:left;
+		text-decoration: underline;
+	}
+	.followus
+	{
+		text-decoration: underline;
+	}
+	hr{
+		display:none;
+	}
+
 
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
+	.footer-distributed .footer-right .btn{
+        margin-left: 0;
+        
+		width: 50%;
+        display: block;
+        margin-bottom: 40px;
+		text-align: center;
+        margin-top:70%;
+        margin-left:-24%;
+        
+		
+	}
+    
 
 }
