@@ -1,0 +1,44 @@
+
+/*header*/
+
+
+.navbar-brand img{
+    width: 115px;
+    height: 70px;
+}
+.container-fluid{
+    background-color:#0e0e30;
+}
+#navbarSupportedContent .nav-item a{
+    color: whitesmoke;
+    text-align: center;
+    font-family:cursive;
+    font-size: 0.9rem;
+}
+#navbarSupportedContent .nav-item{
+    width: 100px;
+    margin-right: 10px;
+    background-color: #313131;
+}
+#navbarSupportedContent .nav-item:hover{
+    background-color: rgb(92, 92, 92);
+    transition: ease-in 0.2s all;
+}
+.navbar-toggler-icon{
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+}
+
+
+/*main*/
+main {
+    margin: 5rem;
+    color: #5a5a5a;
+    font-family:'Poppins';
+    
+}
+
+main p
+{
+    font-size: 20px;
+}
