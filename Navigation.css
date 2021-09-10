@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+
+/* NEWLY ADDED THE ABOVE PART WAS DELETED */
+#logo
+{
+    width: 185px;
+    height: 95px;
+    padding-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+/*-------------------------------------------------------*/
+.container-fluid
+{
+    background-color: #0E0E30;
+   /*NEWLY ADDED*/
+    margin-top: -5px;
+    margin-bottom: -3px;
+    /*-----------------------------------------------------*/
+}
+
+#navbarSupportedContent .nav-item a
+{
+    color: white;/* COLOR CHANGED*/
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /*FONT FAMILY CHANGED*/
+    font-size: 0.9rem;
+    letter-spacing: 0.7px; /*NEWLY ADDED*/
+}
+
+#navbarSupportedContent .nav-item
+{
+    width: 140px;           /*CHANGED*/
+    margin-right: 10px;
+    margin-left: 10px;      /* NEWLY ADDED */
+    /*background-color: #0b0b22;*/
+	height: 50px;
+    border-radius: 5px;
+    
+}
+
+#navbarSupportedContent .nav-item a
+{
+	margin-top: 6px;
+}
+
+#navbarSupportedContent .nav-item:hover
+{
+    background-color: lightslategray; /* COLOUR CHANGED */
+    /*transition: ease-in 0.2s all; NOT NEEDED*/ 
+	border-radius: 7px;
+	
+}
+
+/* NEWLY ADDED 
+-------------------------------------*/
+.fa, .fas, .fab, .far
+{
+    margin-left: 5px; 
+}
+/* -------------------------------------*/
+
+.navbar-toggler-icon
+{
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+}
+/***/
+
+/*********************************************************************************/
+form
+{
+	position: absolute;
+    right: 20px;
+	width: 320px; /*CHANGED*/
+}
+
+form button
+{
+	background-color:rgb(83, 83, 83) ;
+	color: #ffffff;
+	border: rgb(119, 119, 119) solid 2px;
+	border-radius: 5px;
+	height: 40px;
+	width: 90px;
+    margin-left: 5px;   /*NEWLY ADDED*/
+
+}
+
+form button:hover
+{
+	border-radius: 10px;
+	background-color: rgb(129, 129, 129);
+	transform:scale(1.02);
+	transition: all .2s ease-in;
+}
+/********************************************************************************/
+
+
+
+[class^="entypo-"]:before 
+{
+	font-family: 'entypo', sans-serif;
+}
+
+
+#social-sidebar
+{
+		left: -30px;
+		position: fixed;
+		top: 75%;
+}
+
+#social-sidebar li:first-child a { border-top-right-radius: 5px; }
+#social-sidebar li:last-child a { border-bottom-right-radius: 5px; }
+		
+#social-sidebar a 
+{
+        background: rgba(0, 0, 0, .7);
+		color: #fff;
+        text-decoration: none;
+        list-style: none;
+		display: block;
+		height: 50px;
+		width: 50px;  
+		font-size: 24px;
+		line-height: 50px;
+		position: relative;
+		text-align: center;
+		   cursor: pointer;
+}
+
+#social-sidebar a:hover span 
+{
+		left: 120%;
+		opacity: 1;
+}
+
+	   #social-sidebar a span
+{
+		 font: 12px "Open Sans", sans-serif;
+		 text-transform: uppercase;
+		border-radius: 3px;
+		line-height: 24px;
+		left: -100%;
+		margin-top: -16px;
+		opacity: 0;
+		padding: 4px 8px;
+		position: absolute;
+		transition: opacity .3s, left .4s;
+		top: 50%;
+		z-index: -1;
+}
+		
+	   #social-sidebar a span:before 
+{
+		content: "";
+		display: block;
+		height: 8px;
+		 width: 8px;
+		left: -4px;
+		margin-top: -4px;
+		position: absolute;
+		top: 50%;
+		transform: rotate(45deg);
+}
+		
+	   #social-sidebar a[ class*="instagram"]:hover,
+	   #social-sidebar a[ class*="instagram"] span,
+	   #social-sidebar a[ class*="instagram"] span:before {background: #ed004f;}
+		
+	   #social-sidebar a[class*="facebook"]:hover,
+	   #social-sidebar a[class*="facebook"] span,
+	   #social-sidebar a[class*="facebook"] span:before {background: #3B5998;}
+		
+	   #social-sidebar a[class*="gplus"]:hover,
+	   #social-sidebar a[class*="gplus"] span,
+	   #social-sidebar a[class*="gplus"] span:before {background: #E34429;}
+
+/*********************************************************************************/
