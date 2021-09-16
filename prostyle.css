@@ -1,0 +1,923 @@
+.click-me{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(1, 65, 14);
+    border: 1px solid sienna;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-top: 7px;
+}
+
+.click-me:hover{
+    background-color: teal;
+
+}
+
+#click{
+    display: none;
+}
+
+.content{
+    position: fixed;
+    left: 32%;
+    top: 23%;
+
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,4);
+    border-radius: 5px;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in;
+    z-index: 5;
+}
+
+#click:checked ~ .content{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header{
+    height: 60px;
+    background: rgb(2, 90, 46);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0,0,.2);
+}
+
+.header h2{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
+h6{
+    padding-left: 10px;
+}
+
+
+
+.close-btn{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    background: green;
+    color: white;
+    transition: 0.4s;
+}
+
+
+
+/***********************************************Pro 1*******************************************************/
+.click-me1{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(1, 65, 14);
+    border: 1px solid sienna;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-top: 7px;
+}
+
+.click-me1:hover{
+    background-color: teal;
+
+}
+
+#click1{
+    display: none;
+}
+
+.content1{
+    position: fixed;
+    left: 32%;
+    top: 23%;
+
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,4);
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in;
+    z-index: 5;
+}
+
+#click1:checked ~ .content1{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header1{
+    height: 60px;
+    background: rgb(2, 90, 46);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0,0,.2);
+}
+
+.header1 h2{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
+h6{
+    padding-left: 10px;
+}
+
+
+
+.close-btn1{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn1:hover{
+    background: green;
+    color: white;
+    transition: 0.4s;
+}
+
+/*****************************************************************************************************/
+
+/***********************************************Pro 2*******************************************************/
+
+.click-me2{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(1, 65, 14);
+    border: 1px solid sienna;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-top: 7px;
+}
+
+.click-me2:hover{
+    background-color: teal;
+
+}
+
+#click2{
+    display: none;
+}
+
+.content2{
+    position: fixed;
+    left: 32%;
+    top: 23%;
+
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,4);
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in;
+    z-index: 5;
+}
+
+#click2:checked ~ .content2{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header2{
+    height: 60px;
+    background: rgb(2, 90, 46);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0,0,.2);
+}
+
+.header2 h2{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
+h6{
+    padding-left: 10px;
+}
+
+
+
+.close-btn2{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn2:hover{
+    background: green;
+    color: white;
+    transition: 0.4s;
+}
+
+/*****************************************************************************************************/
+
+/***********************************************Pro 3*******************************************************/
+
+.click-me3{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(1, 65, 14);
+    border: 1px solid sienna;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-top: 7px;
+}
+
+.click-me3:hover{
+    background-color: teal;
+
+}
+
+#click3{
+    display: none;
+}
+
+.content3{
+    position: fixed;
+    left: 32%;
+    top: 23%;
+
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,4);
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in;
+    z-index: 5;
+}
+
+#click3:checked ~ .content3{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header3{
+    height: 60px;
+    background: rgb(2, 90, 46);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0,0,.2);
+}
+
+.header3 h2{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
+h6{
+    padding-left: 10px;
+}
+
+
+
+.close-btn3{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn3:hover{
+    background: green;
+    color: white;
+    transition: 0.4s;
+}
+
+/*****************************************************************************************************/
+
+/***********************************************Pro 4*******************************************************/
+
+.click-me4{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(1, 65, 14);
+    border: 1px solid sienna;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-top: 7px;
+}
+
+.click-me4:hover{
+    background-color: teal;
+
+}
+
+#click4{
+    display: none;
+}
+
+.content4{
+    position: fixed;
+    left: 32%;
+    top: 23%;
+
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,4);
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in;
+    z-index: 5;
+}
+
+#click4:checked ~ .content4{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header4{
+    height: 60px;
+    background: rgb(2, 90, 46);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0,0,.2);
+}
+
+.header4 h2{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
+h6{
+    padding-left: 10px;
+}
+
+
+
+.close-btn4{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn4:hover{
+    background: green;
+    color: white;
+    transition: 0.4s;
+}
+
+/*****************************************************************************************************/
+
+/***********************************************Pro 5*******************************************************/
+
+.click-me5{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(1, 65, 14);
+    border: 1px solid sienna;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-top: 7px;
+}
+
+.click-me5:hover{
+    background-color: teal;
+
+}
+
+#click5{
+    display: none;
+}
+
+.content5{
+    position: fixed;
+    left: 32%;
+    top: 23%;
+
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,4);
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in;
+    z-index: 5;
+}
+
+#click5:checked ~ .content5{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header5{
+    height: 60px;
+    background: rgb(2, 90, 46);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0,0,.2);
+}
+
+.header5 h2{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
+h6{
+    padding-left: 10px;
+}
+
+
+
+.close-btn5{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn5:hover{
+    background: green;
+    color: white;
+    transition: 0.4s;
+}
+
+/*****************************************************************************************************/
+
+/***********************************************Pro 6*******************************************************/
+
+.click-me6{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(1, 65, 14);
+    border: 1px solid sienna;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-top: 7px;
+}
+
+.click-me6:hover{
+    background-color: teal;
+
+}
+
+#click6{
+    display: none;
+}
+
+.content6{
+    position: fixed;
+    left: 32%;
+    top: 23%;
+
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,4);
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in;
+    z-index: 5;
+}
+
+#click6:checked ~ .content6{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header6{
+    height: 60px;
+    background: rgb(2, 90, 46);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0,0,.2);
+}
+
+.header6 h2{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
+h6{
+    padding-left: 10px;
+}
+
+
+
+.close-btn6{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn6:hover{
+    background: green;
+    color: white;
+    transition: 0.4s;
+}
+
+/*****************************************************************************************************/
+
+/***********************************************Pro 7*******************************************************/
+
+.click-me7{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(1, 65, 14);
+    border: 1px solid sienna;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-top: 7px;
+}
+
+.click-me7:hover{
+    background-color: teal;
+
+}
+
+#click7{
+    display: none;
+}
+
+.content7{
+    position: fixed;
+    left: 32%;
+    top: 23%;
+
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,4);
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in;
+    z-index: 5;
+}
+
+#click7:checked ~ .content7{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header7{
+    height: 60px;
+    background: rgb(2, 90, 46);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0,0,.2);
+}
+
+.header7 h2{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
+h6{
+    padding-left: 10px;
+}
+
+
+
+.close-btn7{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn7:hover{
+    background: green;
+    color: white;
+    transition: 0.4s;
+}
+
+/*****************************************************************************************************/
+
+/***********************************************Pro 28*******************************************************/
+
+.click-me8{
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(1, 65, 14);
+    border: 1px solid sienna;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-top: 7px;
+}
+
+.click-me8:hover{
+    background-color: teal;
+
+}
+
+#click8{
+    display: none;
+}
+
+.content8{
+    position: fixed;
+    left: 32%;
+    top: 23%;
+
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,4);
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in;
+    z-index: 5;
+}
+
+#click8:checked ~ .content8{
+    opacity: 1;
+    visibility: visible;
+}
+
+.header8{
+    height: 60px;
+    background: rgb(2, 90, 46);
+    overflow: hidden;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0,0,.2);
+}
+
+.header8 h2{
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.fa-times{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+    text-align: center;
+    padding: 20px 10px 0 10px;
+}
+
+h6{
+    padding-left: 10px;
+}
+
+
+
+.close-btn8{
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+    border: 1px solid black;
+    border-radius:5px ;
+    color: black;
+    padding: 8px 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn8:hover{
+    background: green;
+    color: white;
+    transition: 0.4s;
+}
+
+/*****************************************************************************************************/
